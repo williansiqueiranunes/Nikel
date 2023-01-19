@@ -1,0 +1,99 @@
+
+:root {
+    --primary: #4e0070;
+    --secondary: #4c79d3;
+    --secondary-active: #244c9c;
+    --white: #fff;
+}
+#login {
+    background: linear-gradient(120deg, var(--secondary) 44.9%, var(--white) 45%) no-repeat fixed;
+}
+#app {
+    background: linear-gradient(120deg, var(--white) 44.9%, var(--secondary) 45%) no-repeat fixed;
+}
+header {
+    border-bottom: 1px solid #bebcbc;
+    padding: 5px;
+    background-color: var(--white);
+}
+.color-primary {
+    color: var(--primary);
+}
+.color-secondary {
+    color: var(--secondary);
+}
+.icon-datail {
+    font-size: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.text-login {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 500;
+}
+.coins {
+    position: absolute;
+    bottom: 20px;
+}
+.button-login {
+    border-radius: 10px;
+    background-color: var(--primary);
+    color: var(--white);
+    width: 50%;
+    margin: 0 25%;
+}
+.button-login:hover, .button-login:focus, .button-default:hover, .button-default:focus {
+    background-color: var(--secondary);
+    color: var(--white);
+}
+.button-login:active, .button-default:active {
+    background-color: #244c9c !important;
+    color: var(--white) !important;
+}
+.button-default {
+    border-radius: 10px;
+    background-color: var(--primary);
+    color: var(--white);
+}
+.button-cancel {
+    border-radius: 10px;
+}
+.button-float {
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    padding: 0 !important;
+    right: 1rem;
+    bottom: 2rem;
+    font-size: 35px;
+    border: 2px solid var(--primary);
+    background-color: var(--primary);
+    color: var(--white) !important;
+}
+.button-float:hover {
+    border: 2px solid var(--secondary);
+    background-color: var(--white);
+    color: var(--secondary) !important;
+}
+
+.link-default {
+    color: var(--primary);
+    cursor: pointer;
+}
+.link-default:hover {
+    color: var(--secondary);
+}
+.form-text {
+    color: #888;
+    font-size: 14px;
+}
+.info {
+    background-color: var(--white);
+    border-radius: 20px 20px 0 0;
+    padding: 20px 0 0 0;
+}
+
+
+
